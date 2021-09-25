@@ -1,0 +1,35 @@
+body {
+    background-image: url("fanpage1.jpg");
+    background-repeat: no-repeat;
+    background-color: lightblue;
+    font-family: Book Antiqua, Cursive;
+    font-size: 17px;
+}
+
+p {
+    margin-left:85px;
+    margin-right:85px;
+}
+
+#sig {
+    opacity: 0.5;
+    font-size: 13px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 46px;
+    font-family: Lucida Calligraphy, Cursive;
+}
+
+h2 {
+    margin-left: 370px;
+    font-size: 20px;
+    font-family: Lucida Calligraphy, Cursive;
+    margin-bottom:0;
+}
+
+.bulletpoints {
+    margin-left: 350px;
+    list-style-position: inside;
+}
