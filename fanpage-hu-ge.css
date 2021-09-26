@@ -1,3 +1,5 @@
+/* Add background image; Adjust the font and font size of the body. */
+
 body {
     background-image: url("fanpage1.jpg");
     background-repeat: no-repeat;
@@ -5,6 +7,8 @@ body {
     font-family: Book Antiqua, Cursive;
     font-size: 17px;
 }
+
+/* Center the button; change its background-color and font. */
 
 div {
     text-align: center;
@@ -15,22 +19,28 @@ button {
     font-family: Book Antiqua, Cursive;
 }
 
+/* Change the margin and alignment of the paragraph */
+
 p {
     margin-left:85px;
     margin-right:85px;
     text-align: justify;
 }
 
+/* Change the opacity and font size of my signature */
+
 #sig {
     opacity: 0.5;
     font-size: 13px;
 }
 
+/* Change the font size and alignnment of the current time paragraph */
 #time {
     font-size: 13px;
     text-align: center;
 }
 
+/* Adjust h1 style*/
 h1 {
     text-align: center;
     font-size: 46px;
@@ -38,6 +48,7 @@ h1 {
     margin-bottom: 10px;
 }
 
+/* Adjust h2 style */
 h2 {
     margin-left: 370px;
     font-size: 20px;
@@ -45,6 +56,7 @@ h2 {
     margin-bottom:0;
 }
 
+/* Adjust the margin of listed items */
 .bulletpoints {
     margin-left: 350px;
     list-style-position: inside;
