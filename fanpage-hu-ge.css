@@ -76,7 +76,7 @@ iframe {
 /* Adjust the position and appearance of two sections when the window size is smaller than 768px. */
 @media screen and (max-width: 768px) {
     .left {
-        background: linear-gradient(to left top, rgb(245, 218, 223), white);
+        background: linear-gradient(to left top, white, rgb(245, 218, 223));
         margin: 5% 10% 5% 10%;
         padding: 5% 15% 5% 15%;
         border: 2px solid black;
@@ -85,7 +85,7 @@ iframe {
     
     .right {
         float: left;
-        background: linear-gradient(to left top, rgb(245, 218, 223), white);
+        background: linear-gradient(to left top, white, rgb(245, 218, 223));
         margin: 5% 10% 5% 10%;
         padding: 4% 28% 4% 15%;
         border: 2px solid black;
