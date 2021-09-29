@@ -1,35 +1,38 @@
 /* Add background image; Adjust the font and font size of the body. */
-
 body {
     background-image: url("fanpage2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: lightblue;
+    background-color: rgb(200, 230, 240);
     font-family: Book Antiqua, Cursive;
     font-size: 17px;
+    color: black;
 }
 
 /* Change the margin and alignment of the paragraph. */
-
 p {
     margin-left: 5%;
     margin-right: 5%;
     text-align: justify;
 }
 
+/* Make the effect of indentation. */
 #p1 {
     opacity: 0;
 }
 
+/* Center the date. */
 .center {
     text-align: center;
 }
 
+/* Adjust the position of the image. */
 .img {
     text-align: center;
     margin-top: 5%;
 }
 
+/* Adjust the position of the first section. */
 .left {
     float: left;
     left: 20%;
@@ -37,6 +40,7 @@ p {
     padding: 5% 0 5% 5%;
 }
 
+/* Adjust the position of the second section. */
 .right {
     float: right;
     right: 20%;
@@ -44,7 +48,7 @@ p {
     padding: 5% 8% 4.25% 0;
 }
 
-/* Adjust h1 style. */
+/* Adjust the alignment and font of h1. */
 h1 {
     text-align: center;
     font-size: 53px;
@@ -52,7 +56,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Adjust h2 style. */
+/* Adjust the alignment and font of h2. */
 h2 {
     font-size: 20px;
     font-family: Lucida Calligraphy, Cursive;
@@ -64,16 +68,19 @@ h2 {
     list-style-position: inside;
 }
 
+/* Eliminate the border of the video. */
 iframe {
     border: none;
 }
 
+/* Adjust the position and appearance of two sections when the window size is smaller than 768px. */
 @media screen and (max-width: 768px) {
     .left {
         background: linear-gradient(to left top, rgb(245, 218, 223), white);
         margin: 5% 10% 5% 10%;
         padding: 5% 15% 5% 15%;
         border: 2px solid black;
+        font-size: 17px;
     }
     
     .right {
@@ -82,6 +89,7 @@ iframe {
         margin: 5% 10% 5% 10%;
         padding: 4% 28% 4% 15%;
         border: 2px solid black;
+        font-size: 17px;
     }
 }
 
