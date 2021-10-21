@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(200, 230, 240);
-    font-family: Book Antiqua, Cursive;
+    font-family: Book Antiqua, sans-serif;
     font-size: 17px;
     color: black;
 }
